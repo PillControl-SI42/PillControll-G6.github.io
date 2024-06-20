@@ -35,10 +35,6 @@ La aplicación ofrece una solución integral para la gestión de medicamentos, e
 
 Pill Control está en constante evolución. Si tienes sugerencias, comentarios o deseas contribuir al desarrollo de la aplicación, por favor contacta con nosotros a través de [nuestro correo electrónico](mailto:support@pillcontrol.com).
 
-## Licencia
-
-Esta aplicación está licenciada bajo la Licencia MIT. Para más información, consulta el archivo [LICENSE](./LICENSE).
-
 ## Contacto
 
 Si necesitas ayuda o tienes alguna pregunta, no dudes en contactarnos a través de [nuestro correo electrónico](mailto:support@pillcontrol.com).
