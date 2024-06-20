@@ -1,7 +1,7 @@
 # PillControll
 
 ## Descripción del Proyecto
-Pill Control es una aplicación diseñada para asistir a cualquier persona que necesite tomar medicación de manera regular. Esta aplicación está especialmente pensada para ayudar a los adultos mayores que a menudo olvidan tomar sus medicamentos o no recuerdan los horarios de toma, lo que puede afectar gravemente su salud.. La aplicación proporciona recordatorios y un mapa interactivo con puntos de venta de medicamentos, inventarios y precios.
+Pill Control es una aplicación diseñada para asistir a cualquier persona que necesite tomar medicación de manera regular. Esta aplicación está especialmente pensada para ayudar a los adultos mayores que a menudo olvidan tomar sus medicamentos o no recuerdan los horarios de toma, lo que puede afectar gravemente su salud. La aplicación proporciona recordatorios y un mapa interactivo con puntos de venta de medicamentos, inventarios y precios.
 
 ## Autores
 - [Sebastian Ramos](https://github.com/DazzliBoy) (U202222846)
