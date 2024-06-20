@@ -5,8 +5,10 @@ PillControll es una solución integral diseñada para ayudar a los adultos mayor
 
 ## Autores
 - [Sebastian Ramos](https://github.com/DazzliBoy)
-- [Nombre del Autor 2](https://github.com/autor2)
-- [Nombre del Autor 3](https://github.com/autor3)
+- [Andre Pillaca](https://github.com/Andrew300107)
+- [Daniel Ccorimanya](https://github.com/ALEXIS1298318)
+- [Dante Vergara](https://github.com/DanteMDG)
+- [Luis Rosales](https://github.com/LuisRosalesE)
 
 ## Segmentos Objetivo
 - Adultos mayores
