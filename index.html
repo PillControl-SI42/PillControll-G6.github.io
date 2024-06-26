@@ -1,87 +1,147 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
+    <link rel="icon" href="public/favicon.ico" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PillControll</title>
-    <link rel="stylesheet" href="public/assets/styles/styles.css">
-    <link rel="icon" href="public/favicon.ico">
+    <title>PillControl</title>
+    <link rel="stylesheet" href="public/assets/styles/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+      </style>
 </head>
 <body>
-<header>
-    <nav>
-        <ul>
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#quienes-somos">¿Quiénes Somos?</a></li>
-            <li><a href="#beneficios">Beneficios</a></li>
-            <li><a href="#iniciar-sesion">Iniciar Sesión</a></li>
-        </ul>
-    </nav>
-</header>
+    <header>
+        <nav>
+            <li><h3>PILLCONTROL</h3></li>
+            <ul>
+                
+                <li><a href="#" id="banner">Inicio</a></li>
+                <li><a href="#">¿Quienes somos?</a></li>
+                <li><a href="#" id="beneficios">Beneficios</a></li>
+                <li><a href="InSesion.html">Iniciar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--INICIO-->
+        <section class="banner">
+            <div class="containerB row">
+                <div class="boxB col1-md-5 col-12">
+                    <img src="public/assets/images/pildora.png" class="imgBanner" alt="">
+                </div>
+                <div class="boxB col2">
+                    <h1>PILLCONTROL</h1>
+                </div>
+            </div>
+        </section>
+        <!--SLOGAN-->
+        <section class="slogan">
+            <div class="subSlogan">
+                <h2>¿Problemas para recordar cuándo debes tomar tus medicamentos?</h2>
+                <a href="#" id="registro">Registrarse -></a>
+                <p>
+                    No te preocupes, PillControl te ayudará a controlar y recibir notificaciones de cuando tomar tus medicamentos a la hora y fecha indicada.
+                </p>
+            </div>
+        </section>
+        <!--BENEFICIOS-->
+        <section class="beneficios">
+            <div class="subBeneficios">
+                <h2>Beneficios</h2>
+            </div>
+            <div class="containerBeneficios">
+                <div class="boxBeneficios">
+                    <img src="public/assets/images/tomarMedicamentos.png" alt="">
+                    <h3>Mejora la adherencia a los medicamentos</h3>
+                    <p>
+                        Cumple con la pauta terapéutica prescrita, así como su compromiso con el proceso.
+                    </p>
+                </div>
+                <div class="boxBeneficios">
+                    <img src="public/assets/images/mapa.png" alt="">
+                    <h3>Facilidad para encontrar farmacias cercanas</h3>
+                    <p>
+                        Acceso a un mapa que permite geolocalizar un punto concreto, calcular rutas, encontrar los puntos de compra más cercanos a su ubicación.
+                    </p>
+                </div>
+                <div class="boxBeneficios">
+                    <img src="public/assets/images/notificacion.png" alt="">
+                    <h3>Notificaciones personalizadas</h3>
+                    <p>
+                        Recordatorios personalizados para asegurar que el usuario reciba alertas en momentos específicos para tomar sus medicamentos, adaptándose a sus horarios individuales.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!--ALIADOS-->
+        <section class="aliados">
+            <div class="presentacionAliados">
+                <h2>Nuestros Aliados</h2>
+                <p>
+                    Porque queremos lo mejor para tí
+                </p>
+            </div>
+            <div class="containerA">
+                <div class="boxA">
+                    <img src="public/assets/images/boticasPeru.png" alt="">
+                </div>
+                <div class="boxA">
+                    <img src="public/assets/images/mifarma.png" alt="">
+                </div>
+                <div class="boxA">
+                    <img src="public/assets/images/boticasysalud.jpg" alt="">
+                </div>
+                <div class="boxA">
+                    <img src="public/assets/images/boticasHogar.jpg" alt="">
+                </div>
+                <div class="boxA">
+                    <img src="public/assets/images/inkafarma.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!--DESCARGA-->
+        <section class="descarga">
+            <div class="subDescarga">
+                <img src="public/assets/images/celular.png" class="imgCelular" alt="">
+                <p>
+                    En la app podrás acceder a una amplica cantidad de opciones para llevar un registro y control de tus ingestas diarias. Activa los recordatorios para estar siempre al tanto de cúando tomar tus pastillas.
+                </p>
+                
+                <a href="#">Descargar ahora</a>
+            </div>
+        </section>
+        <!--REGISTRO-->
+        <section class="registro">
+            <figure class="registro_figure">
+                <img src="public/assets/images/verificar.png" alt="" class="registro_image">
+            </figure>
+            <div class="registro_contact">
+                <h2 class="registro_title">¡Registrate ya!</h2>
+                <form action="" class="registro_form">
+                    <input type="text" placeholder="Nombre" class="registro_input">
+                    <input type="text" placeholder="Apellido" class="registro_input">
+                    <input type="text" placeholder="Correo electrónico" class="registro_input">
+                    <input type="password" placeholder="Contraseña" class="registro_input">
+                    <input type="text" placeholder="Número de telf." class="registro_input">
+                    <input type="text" placeholder="Fecha de nac." class="registro_input">
+                    <input type="submit" value="Registrar" class="registro_input registro_input--send">
+                </form>
+            </div>
+        </section>
 
-<section id="inicio" class="hero">
-    <h1>PILLCONTROL</h1>
-    <p>¿Problemas para recordar cuándo debes tomar tus medicamentos?</p>
-    <p>No te preocupes, PillControl te ayudará a controlar y recibir notificaciones de cuándo tomar tus medicamentos a la hora y fecha indicada.</p>
-    <a href="#registro" class="btn-register">Registrarse</a>
-</section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <small>
+                Copyright &copy; 2024 - Universidad Peruana de Ciencias Aplicadas (UPC) <br>
+                MedicalSolutions
+            </small>
 
-<section id="quienes-somos" class="app-info">
-    <div>
-        <img src="public/assets/images/app_image.jpg" alt="App Image">
-        <p>En la app podrás acceder a una amplia cantidad de opciones para llevar un registro y control de tus ingestas diarias. Activa los recordatorios para estar siempre al tanto de cuándo tomar tus pastillas.</p>
-        <a href="#" class="btn-download">Descargar ahora</a>
-    </div>
-    <div id="registro" class="register-form">
-        <h2>¡Regístrate ya!</h2>
-        <form>
-            <input type="text" placeholder="Nombre">
-            <input type="text" placeholder="Apellido">
-            <input type="email" placeholder="Correo electronico">
-            <input type="password" placeholder="Contraseña">
-            <input type="tel" placeholder="Número de telf.">
-            <input type="date" placeholder="Fecha de nac.">
-            <button type="submit">Registrar</button>
-        </form>
-    </div>
-</section>
-
-<section id="beneficios" class="benefits">
-    <h2>Beneficios</h2>
-    <div>
-        <div>
-            <img src="public/assets/images/shopping.jpg" alt="Compra">
-            <h3>Mejora la adherencia a los medicamentos</h3>
-            <p>Cumple con la pauta terapéutica prescrita, así como su compromiso con el proceso.</p>
         </div>
-        <div>
-            <img src="public/assets/images/history.jpg" alt="Historial">
-            <h3>Facilidad para encontrar farmacias cercanas</h3>
-            <p>Acceso a un mapa que permite geolocalizar un punto concreto, calcular rutas, encontrar los puntos de compra más cercanos a su ubicación.</p>
-        </div>
-        <div>
-            <img src="public/assets/images/reminder.jpg" alt="Recordatorios">
-            <h3>Notificaciones personalizadas</h3>
-            <p>Recordatorios personalizados para asegurar que el usuario reciba alertas en momentos específicos para tomar sus medicamentos, adaptándose a sus horarios individuales.</p>
-        </div>
-    </div>
-</section>
+    </footer>
 
-<section class="allies">
-    <h2>Nuestros Aliados</h2>
-    <div>
-        <img src="public/assets/images/ally1.jpg" alt="Boticas Peru">
-        <img src="public/assets/images/ally2.jpg" alt="Boticas Salud">
-        <img src="public/assets/images/ally3.jpg" alt="Mifarma">
-        <img src="public/assets/images/ally4.jpg" alt="Inkafarma">
-    </div>
-</section>
+    <script src="public/assets/scripts/menu.js"></script>
 
-<footer id="iniciar-sesion">
-    <p>Copyright © 2024 - Universidad Peruana de Ciencias Aplicadas (UPC) MedicalSolutions</p>
-</footer>
-
-<script src="public/assets/scripts/main.js"></script>
 </body>
 </html>
-
