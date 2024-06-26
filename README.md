@@ -48,7 +48,7 @@ Si necesitas ayuda o tienes alguna pregunta, no dudes en contactarnos a través 
 - jQuery
 
 ## Enlace a la Demo
-[PillControll Demo](https://pillcontrol-g4.github.io/)
+[PillControll Demo](https://pillcontrol-si42.github.io/PillControll-g6.github.io/)
 
 ---
 
