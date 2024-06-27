@@ -9,6 +9,7 @@ Pill Control es una aplicación diseñada para asistir a cualquier persona que n
 - [Daniel Ccorimanya](https://github.com/ALEXIS1298318) (U202224115)
 - [Dante Vergara](https://github.com/DanteMDG) (U20221c314)
 - [Luis Rosales](https://github.com/LuisRosalesE) (U202120446)
+- [Jefferson Morales](https://github.com/Fenfito) (U202316049)
 
 ## Segmentos Objetivo
 - Adultos mayores
